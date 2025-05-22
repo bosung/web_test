@@ -12,40 +12,23 @@
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
+    <header class="post-header">
+      <h1 class="post-title">
+        <span class="font-weight-bold">
+          $\infty$-THOR: Beyond the Needle(s) in the Embodied Haystack
+        </span>
+      </h1>
+      <p class="desc"></p>
+    </header>
+
     <!-- Content -->
     <div class="container mt-5">
-      {% if page.toc and page.toc.sidebar %}
-        {% if page.toc.sidebar == "right" %}
-        <div class="row">
-          <!-- main content area -->
-          <div class="col-sm-9">
-            {{ content }}
-          </div>
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top"></nav>
-          </div>
-        </div>
-        {% else %}
-        <div class="row">
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc-sidebar" class="sticky-top"></nav>
-          </div>
-          <!-- main content area -->
-          <div class="col-sm-9">
-            {{ content }}
-          </div>
-        </div>
-        {% endif %}
-      {% else %}
         <div class="text-center my-5">
           <h1 style="font-size: 2.5rem; font-weight: bold;">
-            THOR: Beyond the Needle(s) in the Embodied Haystack
+            $\infty$-THOR: Beyond the Needle(s) in the Embodied Haystack
           </h1>
         </div>
         {{ content }}
-      {% endif %}
     </div>
 
     <!-- Footer -->
