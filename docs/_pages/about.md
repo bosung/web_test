@@ -5,9 +5,9 @@ permalink: /
 subtitle: 
 
 abstract: >
-  We introduce $\infty$-THOR, a framework for long-horizon embodied reasoning...
+  abstract
 intro: >
-  Our method builds on top of ALFRED but extends it with context...
+  intro
 ---
 
 # $\infty$-THOR: Beyond the Needle(s) in the Embodied Haystack
