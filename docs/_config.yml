@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: $\infity$-THOR # the website title (if blank, full name will be used instead)
+title: Infini-THOR # the website title (if blank, full name will be used instead)
 first_name: PEARLS
 #middle_name: R.
 last_name: Lab @ UCSD
@@ -132,6 +132,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  math_engine: mathjax
   syntax_highlighter_opts:
     css_class: 'highlight'
     span:

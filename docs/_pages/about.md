@@ -4,18 +4,10 @@ title: About
 permalink: /
 subtitle: 
 
-profile:
-  align: center
-  image: Logo-2.png
-  image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>CSE, 3235 Voigt Dr</p>
-  #   <p>La Jolla, CA 92093</p>
-
-news: false  # includes a list of news items
-latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+abstract: >
+  We introduce $\infty$-THOR, a framework for long-horizon embodied reasoning...
+intro: >
+  Our method builds on top of ALFRED but extends it with context...
 ---
 
 # $\infty$-THOR: Beyond the Needle(s) in the Embodied Haystack
