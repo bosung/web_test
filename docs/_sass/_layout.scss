@@ -59,3 +59,22 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/* Abstract section */
+.abstract {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+.abstract h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.abstract p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
