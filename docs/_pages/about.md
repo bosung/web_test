@@ -44,7 +44,7 @@ intro: >
   </a>
 </div>
 
-<div class="text-center my-5">
+<div class="text-center my-5" style="margin-bottom: 2rem;">
   <h3 style="font-size: 2.0rem; font-weight: bold;">
     Abstract
   </h3>
@@ -62,7 +62,7 @@ Our work provides a foundation for the next generation of embodied AI systems ca
 </p>
 </div>
 
-<div class="text-center my-5">
+<div class="text-center my-5" style="margin-bottom: 2rem;">
   <h3 style="font-size: 2.0rem; font-weight: bold;">Demo Video</h3>
 
   <video controls style="max-width: 800px; width: 100%; margin: 0 auto; display: block;">
@@ -72,7 +72,7 @@ Our work provides a foundation for the next generation of embodied AI systems ca
 </div>
 
 
-<div class="text-center my-5">
+<div class="text-center my-5" style="margin-bottom: 2rem;">
   <h3 style="font-size: 2.0rem; font-weight: bold;">Needle(s) in the Emboded Haystack</h3>
   <!-- <h3>Needle(s) in the Emboded Haystack</h3> -->
 
@@ -111,7 +111,7 @@ Our work provides a foundation for the next generation of embodied AI systems ca
   </figure>
 </div>
 
-<div class="text-center my-5">
+<div class="text-center my-5" style="margin-bottom: 2rem;">
   <h3 style="font-size: 2.0rem; font-weight: bold;">Long-horizon Trajectories for Interactive Evaluations</h3>
   <!-- <h3>Long-horizon Trajectories for Interactive Evaluations</h3> -->
 
@@ -123,7 +123,6 @@ Our work provides a foundation for the next generation of embodied AI systems ca
 This setup highlights the challenge of long-horizon dependency, where key objects and locations must be remembered and acted upon after hundreds of steps.
   </p>
   </div>
-
 
   <figure style="max-width: 1000px; margin: 0 auto 40px; text-align: center;">
     <img src="assets/img/long-horizon.png" alt="First Image" style="width: 100%; height: auto; display: block; margin: 0 auto;">
