@@ -62,6 +62,8 @@ Our work provides a foundation for the next generation of embodied AI systems ca
 </p>
 </div>
 
+<div style="margin-bottom: 5rem;"></div>
+
 <div class="text-center my-5" style="margin-bottom: 5rem;">
   <h3 style="font-size: 2.0rem; font-weight: bold;">Demo Video</h3>
 
@@ -69,11 +71,12 @@ Our work provides a foundation for the next generation of embodied AI systems ca
     <source src="assets/video/intro_vid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p class="main-text">
+  <p class="main-text" style="margin-top: 10px;">
   Our generation framework can generate unlimited tasks, the trajectories can be exceptionally long, exceeding 1M context tokens or beyond when the trajectory is processed with LLMs.
   </p>
 </div>
 
+<div style="margin-bottom: 5rem;"></div>
 
 <div class="text-center my-5" style="margin-bottom: 5rem;">
   <h3 style="font-size: 2.0rem; font-weight: bold;">Needle(s) in the Emboded Haystack</h3>
@@ -117,6 +120,8 @@ Our work provides a foundation for the next generation of embodied AI systems ca
   </figure>
 </div>
 
+<div style="margin-bottom: 5rem;"></div>
+
 <div class="text-center my-5" style="margin-bottom: 5rem;">
   <h3 style="font-size: 2.0rem; font-weight: bold;">Long-horizon Trajectories for Interactive Evaluations</h3>
   <!-- <h3>Long-horizon Trajectories for Interactive Evaluations</h3> -->
@@ -139,5 +144,4 @@ t=17) and the counter (seen at t=560) to solved the long-horizon task. Context s
 token length when converting the trajectory into the LLM input space.
     </figcaption>
   </figure>
-
 </div>
