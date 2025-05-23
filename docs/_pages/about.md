@@ -72,8 +72,6 @@ Our work provides a foundation for the next generation of embodied AI systems ca
 </div>
 
 
-
-<hr style="border: none; border-top: 2px solid #333; margin: 40px 0;">
 <div class="text-center my-5">
   <h3 style="font-size: 2.0rem; font-weight: bold;">Needle(s) in the Emboded Haystack</h3>
   <!-- <h3>Needle(s) in the Emboded Haystack</h3> -->
@@ -90,34 +88,44 @@ Our work provides a foundation for the next generation of embodied AI systems ca
       text-align: center;
     ">Needle(s) in the Emboded Haystack</h3> -->
   <div class="text-center my-5">
-    <p class="abstract-text">
+    <p class="main-text">
     <span>\(\infty\)</span>-THOR introduces a new challenging task, Needle(s) in the Embodied Haystack (NiEH).
-    Unlike the standard Needle in a Haystack task, which focuses on recalling a single clue in text, NiEH poses two main challenges: <b>(1) multiple scattered clues (Needles)</b> and <b>(2) multi-modal inputs that combine visual and linguistic observations from the environment (Embodiment)</b>.
+    Unlike the standard Needle in a Haystack task, which focuses on recalling a single clue in text, NiEH poses two main challenges:
+    <span style="font-weight: bold;">(1) multiple scattered clues (Needles)</span> and <span style="font-weight: bold;">(2) multi-modal inputs that combine visual and linguistic observations from the environment (Embodiment)</span>.
     This task is designed to evaluate the agent's ability to recall and reason about previously encountered environmental details, such as identifying objects and recalling performed actions.
   </p>
   </div>
 
-  <figure style="max-width: 1200px; margin: 0 auto 40px; text-align: center;">
+  <figure style="max-width: 1000px; margin: 0 auto 40px; text-align: center;">
     <img src="assets/img/example_NiEH.png" alt="First Image" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-    <figcaption style="margin-top: 10px; font-size: 0.95rem; color: #555;">
+    <figcaption style="margin-top: 10px; font-size: 1.1rem; font-weight: bold; color: #555;">
       Figure 1: Example of Needle in the Embodied Haystack: Single-evidence question types.
     </figcaption>
   </figure>
 
-  <figure style="max-width: 1200px; margin: 0 auto; text-align: center;">
+  <figure style="max-width: 1000px; margin: 0 auto; text-align: center;">
     <img src="assets/img/example_NiSSSEH.png" alt="Second Image" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-    <figcaption style="margin-top: 10px; font-size: 0.95rem; color: #555;">
+    <figcaption style="margin-top: 10px; font-size: 1.1rem; font-weight: bold; color: #555;">
       Figure 2: Example of Needles in the Embodied Haystack: Multi-evidence question types.
     </figcaption>
   </figure>
 </div>
 
-<hr style="border: none; border-top: 2px solid #333; margin: 40px 0;">
 <div class="text-center my-5">
-  <h3 style="font-size: 1.0rem; font-weight: bold;">Long-horizon Trajectories for Interactive Evaluations</h3>
+  <h3 style="font-size: 1.8rem; font-weight: bold;">Long-horizon Trajectories for Interactive Evaluations</h3>
   <!-- <h3>Long-horizon Trajectories for Interactive Evaluations</h3> -->
 
-  <figure style="max-width: 1200px; margin: 0 auto 40px; text-align: center;">
+  <div class="text-center my-5">
+    <p class="main-text">
+    Our benchmark uniquely features tasks with a synthetic final goal, which involves multiple objects that appear at distant time steps,
+    requiring multi-step reasoning across over hundreds of steps.
+    Figure 3 illustrates an example: the agent observes the tomato at an early step (t=17) and the counter top much later (t=560). Then, the final task is given at t=670, which requires the agent to place the tomato on the counter top.
+This setup highlights the challenge of long-horizon dependency, where key objects and locations must be remembered and acted upon after hundreds of steps.
+  </p>
+  </div>
+
+
+  <figure style="max-width: 1000px; margin: 0 auto 40px; text-align: center;">
     <img src="assets/img/long-horizon.png" alt="First Image" style="width: 100%; height: auto; display: block; margin: 0 auto;">
     <figcaption style="margin-top: 10px; font-size: 0.95rem; color: #555;">
       Figure 3: Example of the trajectory and a long-horizon embodied task generated from <span>\(\infty\)</span>-THOR. The
