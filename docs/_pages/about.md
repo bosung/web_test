@@ -13,13 +13,13 @@ intro: >
 <div class="text-center my-5">
 
   <!-- Author Names (Linked) -->
-  <div style="font-size: 1.1rem; margin-bottom: 0.5rem;">
+  <div style="font-size: 1.3rem; margin-bottom: 0.5rem; font-weight: bold;">
     <a href="http://bosung.github.io/" target="_blank">Bosung Kim</a> and
     <a href="https://prithvirajva.com" target="_blank">Prithviraj Ammanabrolu</a>
   </div>
 
   <!-- Affiliation -->
-  <div style="font-size: 1rem; color: #555;">
+  <div style="font-size: 1.3rem; color: #555; font-weight: bold;">
     UC San Diego
   </div>
 </div>
@@ -54,11 +54,8 @@ intro: >
 </p>
 <p class="abstract-text">
 (1) a generation framework for synthesizing scalable, reproducible, and unlimited long-horizon trajectories;
-</p><p class="abstract-text">
 (2) a novel embodied QA task, Needle(s) in the Embodied Haystack, where multiple scattered clues across extended trajectories test agents’ long-context reasoning ability; and
-</p><p class="abstract-text">
 (3) a long-horizon dataset and benchmark suite featuring complex tasks that span hundreds of environment steps, each paired with ground-truth action sequences.
-</p><p class="abstract-text">
 To enable this capability, we explore architectural adaptations, including interleaved Goal-State-Action modeling, context extension techniques, and Context Parallelism, to equip LLM-based agents for extreme long-context reasoning and interaction.
 Experimental results and analyses highlight the challenges posed by our benchmark and provide insights into training strategies and model behaviors under long-horizon conditions.
 Our work provides a foundation for the next generation of embodied AI systems capable of robust, long-term reasoning and planning.
@@ -78,20 +75,27 @@ Our work provides a foundation for the next generation of embodied AI systems ca
 
 <hr style="border: none; border-top: 2px solid #333; margin: 40px 0;">
 <div class="text-center my-5">
-  <!-- <h3 style="font-size: 2.0rem; font-weight: bold;">Needle(s) in the Emboded Haystack</h3> -->
+  <h3 style="font-size: 2.0rem; font-weight: bold;">Needle(s) in the Emboded Haystack</h3>
   <!-- <h3>Needle(s) in the Emboded Haystack</h3> -->
 
-  <h3 style="
+  <!-- <h3 style="
       background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('{{ site.baseurl }}/assets/img/background-t7.png');
       background-size: cover;
       background-position: center;
       padding: 1.5rem;
       border-radius: 8px;
       color: black;
-      font-size: 1.0rem;
+      font-size: 2.0rem;
       font-weight: bold;
       text-align: center;
-    ">Needle(s) in the Emboded Haystack</h3>
+    ">Needle(s) in the Emboded Haystack</h3> -->
+  <div class="text-center my-5">
+    <p class="abstract-text">
+    <span>\(\infty\)</span>-THOR introduces a new challenging task, Needle(s) in the Embodied Haystack (NiEH).
+    Unlike the standard Needle in a Haystack task, which focuses on recalling a single clue in text, NiEH poses two main challenges: <b>(1) multiple scattered clues (Needles)</b> and <b>(2) multi-modal inputs that combine visual and linguistic observations from the environment (Embodiment)</b>.
+    This task is designed to evaluate the agent's ability to recall and reason about previously encountered environmental details, such as identifying objects and recalling performed actions.
+  </p>
+  </div>
 
   <figure style="max-width: 1200px; margin: 0 auto 40px; text-align: center;">
     <img src="assets/img/example_NiEH.png" alt="First Image" style="width: 100%; height: auto; display: block; margin: 0 auto;">
