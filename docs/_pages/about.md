@@ -73,8 +73,8 @@ Our work provides a foundation for the next generation of embodied AI systems ca
     <source src="assets/video/intro_vid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p class="main-text" style="margin-top: 10px;">
-  Our generation framework can generate unlimited tasks, the trajectories can be exceptionally long, exceeding 1M context tokens or beyond when the trajectory is processed with LLMs.
+  <p class="abstract-text" style="margin-top: 14px;">
+  Our generation framework can generate unlimited tasks, the trajectories can be exceptionally long, exceeding 1M context tokens or beyond.
   </p>
 </div>
 
