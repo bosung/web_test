@@ -75,6 +75,8 @@ Our work provides a foundation for the next generation of embodied AI systems ca
 </div>
 
 
+
+<hr style="border: none; border-top: 2px solid #333; margin: 40px 0;">
 <div class="text-center my-5">
   <!-- <h3 style="font-size: 2.0rem; font-weight: bold;">Needle(s) in the Emboded Haystack</h3> -->
   <!-- <h3>Needle(s) in the Emboded Haystack</h3> -->
@@ -85,8 +87,8 @@ Our work provides a foundation for the next generation of embodied AI systems ca
       background-position: center;
       padding: 1.5rem;
       border-radius: 8px;
-      color: white;
-      font-size: 2.0rem;
+      color: black;
+      font-size: 1.0rem;
       font-weight: bold;
       text-align: center;
     ">Needle(s) in the Emboded Haystack</h3>
@@ -106,10 +108,10 @@ Our work provides a foundation for the next generation of embodied AI systems ca
   </figure>
 </div>
 
-
+<hr style="border: none; border-top: 2px solid #333; margin: 40px 0;">
 <div class="text-center my-5">
-  <!-- <h3 style="font-size: 2.0rem; font-weight: bold;">Long-horizon Trajectories for Interactive Evaluations</h3> -->
-  <h3>Long-horizon Trajectories for Interactive Evaluations</h3>
+  <h3 style="font-size: 1.0rem; font-weight: bold;">Long-horizon Trajectories for Interactive Evaluations</h3>
+  <!-- <h3>Long-horizon Trajectories for Interactive Evaluations</h3> -->
 
   <figure style="max-width: 1200px; margin: 0 auto 40px; text-align: center;">
     <img src="assets/img/long-horizon.png" alt="First Image" style="width: 100%; height: auto; display: block; margin: 0 auto;">
