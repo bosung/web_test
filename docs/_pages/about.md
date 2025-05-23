@@ -98,21 +98,21 @@ Our work provides a foundation for the next generation of embodied AI systems ca
 
   <figure style="max-width: 1000px; margin: 0 auto 40px; text-align: center;">
     <img src="assets/img/example_NiEH.png" alt="First Image" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-    <figcaption style="margin-top: 10px; font-size: 1.1rem; font-weight: bold; color: #555;">
-      Figure 1: Example of Needle in the Embodied Haystack: Single-evidence question types.
+    <figcaption style="margin-top: 10px; font-size: 1.1rem; color: #555;">
+       <span style="font-weight: bold;">Figure 1.</span> Example of Needle in the Embodied Haystack: Single-evidence question types.
     </figcaption>
   </figure>
 
   <figure style="max-width: 1000px; margin: 0 auto; text-align: center;">
     <img src="assets/img/example_NiSSSEH.png" alt="Second Image" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-    <figcaption style="margin-top: 10px; font-size: 1.1rem; font-weight: bold; color: #555;">
-      Figure 2: Example of Needles in the Embodied Haystack: Multi-evidence question types.
+    <figcaption style="margin-top: 10px; font-size: 1.1rem; color: #555;">
+       <span style="font-weight: bold;">Figure 2.</span> Example of Needles in the Embodied Haystack: Multi-evidence question types.
     </figcaption>
   </figure>
 </div>
 
 <div class="text-center my-5">
-  <h3 style="font-size: 1.8rem; font-weight: bold;">Long-horizon Trajectories for Interactive Evaluations</h3>
+  <h3 style="font-size: 2.0rem; font-weight: bold;">Long-horizon Trajectories for Interactive Evaluations</h3>
   <!-- <h3>Long-horizon Trajectories for Interactive Evaluations</h3> -->
 
   <div class="text-center my-5">
@@ -127,8 +127,8 @@ This setup highlights the challenge of long-horizon dependency, where key object
 
   <figure style="max-width: 1000px; margin: 0 auto 40px; text-align: center;">
     <img src="assets/img/long-horizon.png" alt="First Image" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-    <figcaption style="margin-top: 10px; font-size: 0.95rem; color: #555;">
-      Figure 3: Example of the trajectory and a long-horizon embodied task generated from <span>\(\infty\)</span>-THOR. The
+    <figcaption style="margin-top: 10px; font-size: 1.1rem; color: #555;">
+     <span style="font-weight: bold;">Figure 3.</span> Example of the trajectory and a long-horizon embodied task generated from <span>\(\infty\)</span>-THOR. The
 final goal (“Put the tomato on the counter top” at t=670) requires recalling both the tomato (seen at
 t=17) and the counter (seen at t=560) to solved the long-horizon task. Context size refers to the input
 token length when converting the trajectory into the LLM input space.
