@@ -44,6 +44,8 @@ intro: >
   </a>
 </div>
 
+<div style="margin-bottom: 5rem;"></div>
+
 <div class="text-center my-5" style="margin-bottom: 5rem;">
   <h3 style="font-size: 2.0rem; font-weight: bold;">
     Abstract
@@ -62,7 +64,7 @@ Our work provides a foundation for the next generation of embodied AI systems ca
 </p>
 </div>
 
-<div style="margin-bottom: 5rem;"></div>
+<div style="margin-bottom: 10rem;"></div>
 
 <div class="text-center my-5" style="margin-bottom: 5rem;">
   <h3 style="font-size: 2.0rem; font-weight: bold;">Demo Video</h3>
@@ -76,7 +78,7 @@ Our work provides a foundation for the next generation of embodied AI systems ca
   </p>
 </div>
 
-<div style="margin-bottom: 5rem;"></div>
+<div style="margin-bottom: 10rem;"></div>
 
 <div class="text-center my-5" style="margin-bottom: 5rem;">
   <h3 style="font-size: 2.0rem; font-weight: bold;">Needle(s) in the Emboded Haystack</h3>
@@ -120,7 +122,7 @@ Our work provides a foundation for the next generation of embodied AI systems ca
   </figure>
 </div>
 
-<div style="margin-bottom: 5rem;"></div>
+<div style="margin-bottom: 10rem;"></div>
 
 <div class="text-center my-5" style="margin-bottom: 5rem;">
   <h3 style="font-size: 2.0rem; font-weight: bold;">Long-horizon Trajectories for Interactive Evaluations</h3>
