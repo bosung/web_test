@@ -51,13 +51,14 @@ intro: >
   <p class="abstract-text">
   We introduce <span>\(\infty\)</span>-THOR, a new framework for long-horizon embodied tasks that advances long-context understanding in embodied AI.
 <span>\(\infty\)</span>-THOR provides:
-
+</p>
+<p class="abstract-text">
 (1) a generation framework for synthesizing scalable, reproducible, and unlimited long-horizon trajectories;
-
+</p><p class="abstract-text">
 (2) a novel embodied QA task, Needle(s) in the Embodied Haystack, where multiple scattered clues across extended trajectories test agents’ long-context reasoning ability; and
-
+</p><p class="abstract-text">
 (3) a long-horizon dataset and benchmark suite featuring complex tasks that span hundreds of environment steps, each paired with ground-truth action sequences.
-
+</p><p class="abstract-text">
 To enable this capability, we explore architectural adaptations, including interleaved Goal-State-Action modeling, context extension techniques, and Context Parallelism, to equip LLM-based agents for extreme long-context reasoning and interaction.
 Experimental results and analyses highlight the challenges posed by our benchmark and provide insights into training strategies and model behaviors under long-horizon conditions.
 Our work provides a foundation for the next generation of embodied AI systems capable of robust, long-term reasoning and planning.
@@ -76,7 +77,19 @@ Our work provides a foundation for the next generation of embodied AI systems ca
 
 <div class="text-center my-5">
   <!-- <h3 style="font-size: 2.0rem; font-weight: bold;">Needle(s) in the Emboded Haystack</h3> -->
-  <h3>Needle(s) in the Emboded Haystack</h3>
+  <!-- <h3>Needle(s) in the Emboded Haystack</h3> -->
+
+  <h3 style="
+      background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('{{ site.baseurl }}/assets/img/background-t7.png');
+      background-size: cover;
+      background-position: center;
+      padding: 1.5rem;
+      border-radius: 8px;
+      color: white;
+      font-size: 2.0rem;
+      font-weight: bold;
+      text-align: center;
+    ">Needle(s) in the Emboded Haystack</h3>
 
   <figure style="max-width: 1200px; margin: 0 auto 40px; text-align: center;">
     <img src="assets/img/example_NiEH.png" alt="First Image" style="width: 100%; height: auto; display: block; margin: 0 auto;">
