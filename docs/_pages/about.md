@@ -69,6 +69,9 @@ Our work provides a foundation for the next generation of embodied AI systems ca
     <source src="assets/video/intro_vid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
+  <p class="main-text">
+  Our generation framework can generate unlimited tasks, the trajectories can be exceptionally long, exceeding 1M context tokens or beyond when the trajectory is processed with LLMs.
+  </p>
 </div>
 
 
@@ -93,6 +96,9 @@ Our work provides a foundation for the next generation of embodied AI systems ca
     Unlike the standard Needle in a Haystack task, which focuses on recalling a single clue in text, NiEH poses two main challenges:
     <span style="font-weight: bold;">(1) multiple scattered clues (Needles)</span> and <span style="font-weight: bold;">(2) multi-modal inputs that combine visual and linguistic observations from the environment (Embodiment)</span>.
     This task is designed to evaluate the agent's ability to recall and reason about previously encountered environmental details, such as identifying objects and recalling performed actions.
+
+    Figure 3 and 4 present examples of the two NiEH task types.
+    In the single-evidence setting, a question is answerable based on a single observation step; in the multi-evidence setting, multiple temporally distant steps must be combined to answer the question.
   </p>
   </div>
 
