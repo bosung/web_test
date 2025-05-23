@@ -74,3 +74,10 @@ Our work provides a foundation for the next generation of embodied AI systems ca
 
 
 
+<div class="text-center my-5">
+  <h3 style="font-size: 2.0rem; font-weight: bold;">Needle(s) in the Emboded Haystack</h3>
+
+  <img src="assets/img/example_NiEH.png" alt="First Image" style="max-width: 800px; width: 100%; height: auto; display: block; margin: 20px auto;">
+
+  <img src="assets/img/example_NiSSSEH.png" alt="Second Image" style="max-width: 800px; width: 100%; height: auto; display: block; margin: 20px auto;">
+</div>
