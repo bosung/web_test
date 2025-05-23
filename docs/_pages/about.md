@@ -28,13 +28,22 @@ intro: >
       Dataset
     </button>
   </a>
-
 </div>
+
+
+<header class="post-header">
+  <h1 class="post-title">
+   <span class="font-weight-bold">\(\infty\)</span>-THOR: Beyond the Needle(s) in the Embodied Haystack
+  </h1>
+  <p class="desc">{{ page.subtitle }}</p>
+</header>
 
 <div class="text-center my-5">
   <h3 style="font-size: 2.0rem; font-weight: bold;">
     Abstract
   </h3>
+  
+  <p class="abstract-text">
   We introduce <span>\(\infty\)</span>-THOR, a new framework for long-horizon embodied tasks that advances long-context understanding in embodied AI.
 <span>\(\infty\)</span>-THOR provides:
 (1) a generation framework for synthesizing scalable, reproducible, and unlimited long-horizon trajectories;
@@ -43,6 +52,7 @@ intro: >
 To enable this capability, we explore architectural adaptations, including interleaved Goal-State-Action modeling, context extension techniques, and Context Parallelism, to equip LLM-based agents for extreme long-context reasoning and interaction.
 Experimental results and analyses highlight the challenges posed by our benchmark and provide insights into training strategies and model behaviors under long-horizon conditions.
 Our work provides a foundation for the next generation of embodied AI systems capable of robust, long-term reasoning and planning.
+</p>
 </div>
 
 <section class="abstract">
@@ -53,5 +63,8 @@ We introduce <span>\(\infty\)</span>-THOR, a new framework for long-horizon embo
       </p>
   </div>
 </section>
+
+# Needle(s) in the Embodied Haystack
+
 
 
