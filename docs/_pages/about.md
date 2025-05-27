@@ -73,20 +73,20 @@ Our work provides a foundation for the next generation of embodied AI systems ca
     <source src="assets/video/intro_vid.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <p class="abstract-text" style="margin-top: 14px;">
+  <p class="abstract-text" style="margin-top: 20px; margin-bottom: 20px;">
   Our generation framework can generate unlimited tasks, the trajectories can be exceptionally long, exceeding 1M context tokens or beyond.
   </p>
 
   <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-    <video controls autoplay muted loop style="max-width: 300px; width: 100%;">
+    <video controls autoplay muted loop style="max-width: 240px; width: 100%;">
       <source src="assets/video/floorplan323_19_932.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <video controls autoplay muted loop style="max-width: 300px; width: 100%;">
+    <video controls autoplay muted loop style="max-width: 240px; width: 100%;">
       <source src="assets/video/floorplan218_17_889.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <video controls autoplay muted loop style="max-width: 300px; width: 100%;">
+    <video controls autoplay muted loop style="max-width: 240px; width: 100%;">
       <source src="assets/video/floorplan204_25_861.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
