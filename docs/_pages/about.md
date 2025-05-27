@@ -87,7 +87,7 @@ Our work provides a foundation for the next generation of embodied AI systems ca
       Your browser does not support the video tag.
     </video>
     <video controls autoplay muted loop style="max-width: 240px; width: 100%;">
-      <source src="assets/video/floorplan204_25_861.mp4" type="video/mp4">
+      <source src="assets/video/floorplan210_26_870.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>
